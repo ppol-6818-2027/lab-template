@@ -1,0 +1,9 @@
+data/
+*.dta
+*.csv.gz
+*.dat.gz
+*.xml
+.Rproj.user/
+.Rhistory
+.RData
+.Renviron
