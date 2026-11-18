@@ -2,6 +2,7 @@ data/
 *.dta
 *.csv.gz
 *.dat.gz
+*.parquet
 *.xml
 .Rproj.user/
 .Rhistory
