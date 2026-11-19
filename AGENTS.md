@@ -11,8 +11,8 @@ This is a student's lab repository for PPOL 6818, Experimental Research Design a
 
 ## Running R
 
-Run every piece of R code in the student's RStudio session, through the `rstudio` tools, so the student sees it run. At the start, call `list_r_sessions` and `select_r_session`; run code with `run_in_console` and read it with `console_output`. Never run R through `Rscript`, `R` or the shell.
+Run every piece of R code in the student's R console, the R terminal in VS Code, through the `r-console` tools, so the student sees it run: `run_in_console` runs the code there and returns what it printed. Give it `folder`, this repository's full path (`/workspaces/<repository>`), so relative paths work. If it says no console is connected, follow what it says (`list_r_sessions`, then `select_r_session`). Never run R through `Rscript`, `R` or the shell.
 
 ## Submitting
 
-The student commits each week's folder and pushes from RStudio's Git pane; a lab counts as done once its work is pushed. In week 1 the student pushes `week-01/pitch.md` (and `week-01/pitch.png`, if any) by the end of the lab, when a course script combines every student's slide into the class deck. Data downloaded for the figure goes in `data/`, which git ignores.
+The student commits each week's folder and pushes it, from VS Code's Source Control view or by asking you to (commit only that week's files, with a short message, then push); a lab counts as done once its work is pushed. In week 1 the student pushes `week-01/pitch.md` (and `week-01/pitch.png`, if any) by the end of the lab, when a course script combines every student's slide into the class deck. Data downloaded for the figure goes in `data/`, which git ignores.

@@ -4,19 +4,7 @@
   "hostRequirements": {
     "cpus": 2
   },
-  "postAttachCommand": {
-    "rstudio": "ppol6818-rstudio"
-  },
-  "forwardPorts": [
-    8787
-  ],
-  "portsAttributes": {
-    "8787": {
-      "label": "RStudio",
-      "requireLocalPort": true,
-      "onAutoForward": "openBrowser"
-    }
-  },
+  "workspaceFolder": "/workspaces",
   "customizations": {
     "codespaces": {
       "repositories": {
